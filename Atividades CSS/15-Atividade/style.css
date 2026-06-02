@@ -1,0 +1,64 @@
+body
+{
+    margin:0;
+}
+ 
+.card
+{
+background-color: #a9e3eb;
+margin: 30px;
+padding: 10px 30px;
+width: 360px;
+box-sizing: border-box;
+box-shadow: 4px 4px 10px;
+border-radius: 10px;
+}
+ 
+h1
+{
+color: rgb(255, 0, 140);
+}
+h2
+{
+color: orange;
+margin-bottom: 5px;
+}
+.sobre-mim,.hobbies,.habilidades
+{
+    margin-bottom: 30px;
+}
+.sobre-mim p
+{
+    margin-top: 0;
+}
+ul,ol
+{
+margin-top: 0;
+padding-left: 16px;
+}
+ 
+.imagem
+{
+    width: 300;
+    height: 300;
+    margin-bottom: 30px;
+}
+img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #a9e3eb;
+    display: block;
+}
+
+.rodape a 
+{
+    color: blue;
+    text-decoration: none;
+}
+
+.rodape a:hover 
+{
+    text-decoration: underline;
+}
