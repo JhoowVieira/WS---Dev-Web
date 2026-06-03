@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #0066cc;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.projeto {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.projeto:hover {
+    transform: scale(1.02);
+}
+
+a:hover {
+    color: red;
+}
