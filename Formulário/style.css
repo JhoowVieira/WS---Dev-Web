@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 10px 60px;
+}
+
+h1, h2 {
+    color: brown;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #e0e0e0;
+    width: 400px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #5b5b5b;
+}
+
+label {
+    display: block;
+    margin-top: 8px;
+}
+
+input, select, textarea {
+    padding: auto;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+input[type="radio"] + label, input[type="checkbox"] + label {
+    display: inline-block;
+}
