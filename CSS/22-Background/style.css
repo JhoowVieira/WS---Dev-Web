@@ -1,10 +1,31 @@
-.bg {
-    width: 100vw;
-    height: 100vh;
-    background-color: coral;
-    background-image: url('./keenyam-background-9509852.jpg');
-    /*background-repeat: no-repeat;*/
-    /*background-size: cover;*/
-    background-attachment: scroll;
-    background-position: right;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(45deg, #000a94 0%, #9d00bd 20%, #d40051 100%);
+}
+
+.secao {
+    height: 300px;
+    padding: 100px;
+    color: white;
+    text-align: center;
+    background-image: url("../22-Background/keenyam-background-9509852.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.card {
+  padding: 1000px;
+  color: white;
+  text-align: center;
+  background: radial-gradient(45deg, #000a94 0%, #9d00bd 50%, #d40051 100%)
 }
