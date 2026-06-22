@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.largura {
+    background-color: navy;
+    min-width: 200px;
+    max-width: 500px;
+    width: 80%;
+}
+
+.altura {
+    background-color: crimson;
+    width: 200px;
+    height: 150px;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.overflow-x {
+    background-color: blueviolet;
+    width: 300px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.overflow-y {
+    background-color: deeppink;
+    width: 300px;
+    height: 100px;
+    overflow-y: auto;
+}
+
+.overflow-total {
+    background-color: darkgreen;
+    width: 300px;
+    height: 150px;
+    overflow: auto;
+    white-space: nowrap;
+}
