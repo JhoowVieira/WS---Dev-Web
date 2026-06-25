@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Container principal (Caixa/Bloco principal)*/
+.caixa {
+
+}
+
+
+/*caixa que fica dentro do container principal - (FLEX ITEM)*/
+.item {
+
+}
