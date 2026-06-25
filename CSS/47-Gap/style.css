@@ -13,27 +13,32 @@ body {
     background-color: #f0f0f0;
 }
 
-/*Container/Caixa/Bloco principal(FLEX CONTAINER)*/
-.caixa {
+.container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 300px; 
-    height: 300px;
-    border: 2px solid #0f0f0f;
-    border-radius: 10px;
-    padding: 10px;
+    flex-wrap: wrap;
+    max-width: 300px;
     margin: 5px;
+    padding: 10px;
     background-color: navy;
 }
 
-
-/*caixa que fica dentro do container principal - (FLEX ITEM)*/
 .item {
     background-color: coral;
     color: #fff;
     padding: 10px;
-    margin: 10px;
     text-align: center;
+    height: 30px;
 }
+
+.gap {
+    gap: 10px;
+}
+
+.row-gap {
+    row-gap: 10px;
+}
+
+.column-gap {
+    column-gap: 10px;
+}
+
