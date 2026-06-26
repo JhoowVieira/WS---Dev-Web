@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.largura-total {
+    width: 100vw;
+    background-color: coral;
+    color: #fff;
+    padding: 20px;
+}
+
+.largura-metade {
+    width: 50vw;
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+}
+
+.altura-metade {
+    height: 100vh;
+    background-color: navy;
+    color: #fff;
+    padding: 20px;
+}
+
+.altura-total {
+    height: 50vh;
+    background-color: green;
+    color: #fff;
+    padding: 20px;
+}
